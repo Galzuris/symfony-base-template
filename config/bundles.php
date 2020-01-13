@@ -22,4 +22,5 @@ return [
     FOS\UserBundle\FOSUserBundle::class => ['all' => true],
     AlterPHP\EasyAdminExtensionBundle\EasyAdminExtensionBundle::class => ['all' => true],
     Tetranz\Select2EntityBundle\TetranzSelect2EntityBundle::class => ['all' => true],
+    Lexik\Bundle\JWTAuthenticationBundle\LexikJWTAuthenticationBundle::class => ['all' => true],
 ];
