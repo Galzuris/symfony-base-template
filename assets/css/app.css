@@ -3,3 +3,5 @@ legend.required::after {
     content: ' *';
     color: red;
 }
+
+.navbar-brand-logo { max-height: 25px; }
