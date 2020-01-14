@@ -21,6 +21,7 @@ class ApiTestController extends AbstractController
     {
         /** @var User $user */
         $user = $this->getUser();
-        return $this->json(["id" => $user->getId(), "username" => $user->getUsername(), "email" => $user->getEmail(), "is_admin" => $this->isGranted("ROLE_ADMIN") ]);
+
+        return $this->json(['id' => $user->getId(), 'username' => $user->getUsername(), 'email' => $user->getEmail(), 'is_admin' => $this->isGranted('ROLE_ADMIN')]);
     }
 }
